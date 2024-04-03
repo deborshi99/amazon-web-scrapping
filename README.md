@@ -4,7 +4,7 @@ Hello everyone, in a nutshell, this project will give you the details of a produ
 
 Below is the flow diagram
 
-![screenshot]([flow_diagram.png.png](https://github.com/deborshi99/amazon-web-scrapping/blob/master/flow_diagram.png))
+<img src="/flow_diagram.png" alt="Employee data" title="Employee Data title">
 
 <h2> Start the amazon scrappy </h2>
 
