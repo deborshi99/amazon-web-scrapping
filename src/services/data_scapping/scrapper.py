@@ -21,8 +21,8 @@ class scrappy:
         try:
             self.chrome_options = Options()
             self.chrome_options.add_argument("--headless")
-            # self.chrome_options.add_argument(f'--proxy-server=164.38.155.97:-80')
-            # self.chrome_options.add_argument('--log-level=3')
+            custom_csp = "default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline'; connect-src wss://p47r3qkl5raepa5flsczs7khqq.appsync-realtime-api.eu-west-1.amazonaws.com"
+            self.chrome_options.add_argument(f"--disable-csp --user-data-dir={custom_csp}")
 
             self.start_url = start_url    
             self.response = requests.get(self.start_url)
