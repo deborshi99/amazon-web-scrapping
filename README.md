@@ -28,4 +28,8 @@ Below is the flow diagram
 7. ```CountryOfOrigin``` -> Country of Origin.
 8. ```Manufacturer``` -> Brand/manufacturer name.
 9. ```FetchedTimeStamp``` -> Timestamp at which the record has been fetched.
-10. '5 stars', '4 stars', '3 stars', '2 stars', '1 stars' --> this are the ratings(out of 5) for the product given my the users 
+10. '5 stars', '4 stars', '3 stars', '2 stars', '1 stars' --> this are the ratings(out of 5) for the product given my the users
+
+<h2>Future Developement</h2>
+
+1. A ```flask``` api can be developed and be hosted on the web for better usage.
