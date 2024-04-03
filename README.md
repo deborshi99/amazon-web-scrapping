@@ -34,4 +34,5 @@ Below is the flow diagram
 
 <h2>Future Developement</h2>
 
-1. A ```flask``` api can be developed and be hosted on the web for better usage.
+1. A ```proxy server``` can be used to scrap the website or it might fail in between.
+2. A ```flask``` api can be developed and be hosted on the web for better usage.
